@@ -1,0 +1,51 @@
+.contact{
+    display: block;
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position: relative;
+    /* height: 50vh; */
+}
+
+.contact-header {
+    color: white;
+}
+
+.contact-link {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.contact-social-button {
+    font-size: 50px;
+    transition: 0.2s;
+    padding: 10px;
+    color: white;
+}
+
+.contact-social-button:hover {
+    color: gray;
+}
+
+.contact-copy-button {
+    font-size: 20px;
+    transition: 0.2s;
+    padding: 10px;
+}
+
+.contact-copy-button:hover {
+    font-size: 25px;
+    transition: 0.2s;
+    padding: 10px;
+    color: orange;
+}
+
+.contact-hidden {
+    visibility:hidden
+}
+
+html {
+    scroll-behavior: smooth;
+}
