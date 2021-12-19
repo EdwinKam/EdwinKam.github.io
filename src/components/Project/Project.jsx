@@ -12,6 +12,12 @@ import Typography from '@material-ui/core/Typography';
 import Netflix from "../../img/netflix.jpg";
 import Discordbot from "../../img/discordbot.png";
 import useWindowDimensions from '../Window/Window';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+import { FaReact, FaDiscord } from "react-icons/fa";
+import { DiSqllite } from "react-icons/di";
 
 // https://www.npmjs.com/package/react-typing-effect
 // React-typing-effect
@@ -23,6 +29,9 @@ import {FaGithubSquare, FaLinkedin} from "react-icons/fa";
 
 function Project() {
     const { height, width } = useWindowDimensions();
+    const icons = {
+        'react': <FaReact/>
+    }
 
     return (
         <div className="project">
@@ -41,8 +50,28 @@ function Project() {
                         <Typography variant="h3">@UCSC</Typography>
                         <div className='project-box-body'>
                             <Typography>Created a discord bot so student can receive important message via discord DMs. Students can subscribe to their different classes and clubs</Typography>
+                            <List>
+                            <ListItem disablePadding>
+                                <ListItemIcon className="project-icon">
+                                    <FaReact/>
+                                </ListItemIcon>
+                                <ListItemText primary="React" />
+                            </ListItem>
+                            <ListItem disablePadding>
+                                <ListItemIcon className="project-icon">
+                                    <DiSqllite />
+                                </ListItemIcon>
+                                <ListItemText primary="SQLite" />
+                            </ListItem>
+                            <ListItem disablePadding>
+                                <ListItemIcon className="project-icon">
+                                    <FaDiscord />
+                                </ListItemIcon>
+                                <ListItemText primary="Discord.js" />
+                            </ListItem>
+                            </List>
                             <a href="https://github.com/orgs/HKICAC/dashboard" target="_blank" rel="noreferrer">
-                                <FaGithubSquare className="social-button"/>
+                                <FaGithubSquare className="project-github"/>
                             </a>
                         </div>
                     </div>
@@ -56,7 +85,7 @@ function Project() {
                         <div className='project-box-body'>
                             <Typography>Project 1 is a very interesting project. It utilizes the NERP stack is very useful.</Typography>
                             <a href="https://github.com/orgs/HKICAC/dashboard" target="_blank" rel="noreferrer">
-                                <FaGithubSquare className="social-button"/>
+                                <FaGithubSquare className="project-github"/>
                             </a>
                         </div>
                     </div>

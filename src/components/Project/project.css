@@ -30,6 +30,7 @@
     display: none;
     /* margin: auto; */
     padding:10px;
+    position: relative;
 }
 
 .project-img {
@@ -63,4 +64,25 @@
         margin-top:0%;
         color:rgba(0, 0, 0);
     }
+}
+
+.project-icon {
+    color: black;
+    font-size: 35px;
+}
+
+.project-github {
+    font-size: 60px;
+    position: absolute;
+    left: 5px;
+    /* bottom: 5px; */
+    color: grey;
+}
+
+.project-github:hover {
+    font-size: 60px;
+    position: absolute;
+    left: 5px;
+    /* bottom: 5px; */
+    color: purple;
 }
