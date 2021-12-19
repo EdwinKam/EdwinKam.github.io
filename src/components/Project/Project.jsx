@@ -40,7 +40,7 @@ function Project() {
                         <Typography variant="h3">Discord Bulletin Bot</Typography>
                         <Typography variant="h3">@UCSC</Typography>
                         <div className='project-box-body'>
-                            <Typography>Project 1 is a very interesting project. It utilizes the NERP stack is very useful.</Typography>
+                            <Typography>Created a discord bot so student can receive important message via discord DMs. Students can subscribe to their different classes and clubs</Typography>
                             <a href="https://github.com/orgs/HKICAC/dashboard" target="_blank" rel="noreferrer">
                                 <FaGithubSquare className="social-button"/>
                             </a>

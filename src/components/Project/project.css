@@ -34,18 +34,23 @@
 
 .project-img {
     width: 100%;
-    height: 60%;
+    height: 30vh;
     object-fit: cover;
+    transition-duration: 0.2s;
 }
 
 .project-box:hover {
-    height: 70vh;
+    height: 90vh;
 }
 
 .project-box:hover .project-box-body{
     display: block;
     animation-duration: 0.5s;
     animation-name: textFadeIn;
+}
+
+.project-box:hover .project-img{
+    height: 35vh;
 }
 
 @keyframes textFadeIn{
