@@ -76,13 +76,17 @@ function Experience() {
             <Slider className="experience-card" data={blackrockData} header={cardHeader}/>
           </Grid>
           <Grid item xs={6} className="experience-grid">
-            <img src={Blackrock} className="experience-img"/>
+            <a href="https://www.blackrock.com/us/individual" target="_blank" rel="noreferrer">
+              <img src={Blackrock} alt="blackrock logo" className="experience-img"/>
+            </a>
           </Grid>
         </Grid>
         <Divider/>
         <Grid className="experience-content" container spacing={3}>
           <Grid item xs={6} className="experience-grid">
-            <img src={DTSC} className="experience-img"/>
+          <a href="https://dtsc.ca.gov/" target="_blank" rel="noreferrer">
+            <img src={DTSC} alt="dtsc logo" className="experience-img"/>
+          </a>
           </Grid>
           <Grid item xs={6} className="experience-grid">
           <Typography variant="h4">Department of Toxic Substances Control</Typography>
@@ -100,7 +104,10 @@ function Experience() {
             <Slider className="experience-card" data={bsoeData} header={cardHeader}/>
           </Grid>
           <Grid item xs={6} className="experience-grid">
-            <img src={BSOE} className="experience-img"/>
+            <a href="https://engineering.ucsc.edu/" target="_blank" rel="noreferrer">
+              <img src={BSOE} alt="BSOE logo" className="experience-img"/>
+            </a>
+            
           </Grid>
         </Grid>
       </div>
