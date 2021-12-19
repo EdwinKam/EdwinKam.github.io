@@ -39,7 +39,7 @@ function Project() {
         <div className="project">
             <Typography variant="h3">Projects</Typography>
             <Grid className="experience-grid" container spacing={3}>
-            <Grid item xs={4}>
+            <Grid item xs={12} sm={4}>
                 <div className="project-box">
                     <img className="project-img" src={Discordbot} alt='Discord Bot Capture'></img>
                     <div className="project-content">
@@ -86,7 +86,7 @@ function Project() {
                     </div>
                 </div>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={4}>
                 <div className="project-box">
                     <img className="project-img" src={ArcgisMap} alt='Arcgis Map capture'></img>
                     <div className="project-content">
@@ -113,7 +113,7 @@ California's HWMP facilities data from DTSC web server endpoints. </Typography>
                     </div>
                 </div>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} sm={4}>
                 <div className="project-box">
                     <img className="project-img" src={Blackrock} alt='blackrock Logo'></img>
                     <div className="project-content">

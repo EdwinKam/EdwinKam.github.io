@@ -1,7 +1,8 @@
 .project{
     text-align: left;
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
+    /* height: 100vh; */
     background-color: #DCDCDC;
     margin: 0;
     padding: 60px;
@@ -11,13 +12,13 @@
     font-size: 30px;
 }
 .project-box {
-    height: 50vh;
+    /* height: 50vh; */
     background-color: white;
     transition: 0.2s;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: hidden;
-    
+    transition-delay: 2s;
     
 }
 
@@ -30,7 +31,7 @@
     display: none;
     /* margin: auto; */
     padding:10px;
-    position: relative;
+    /* position: relative; */
 }
 
 .project-img {
@@ -41,7 +42,9 @@
 }
 
 .project-box:hover {
-    height: 90vh;
+    max-height: 200%;
+    /* height: 100%; */
+    /* height:auto; */
 }
 
 .project-box:hover .project-box-body{
@@ -73,16 +76,13 @@
 
 .project-github {
     font-size: 60px;
-    position: absolute;
-    left: 5px;
+    /* position: absolute;
+    left: 5px; */
     /* bottom: 5px; */
-    color: grey;
+    color: #6e5494;
 }
 
 .project-github:hover {
-    font-size: 60px;
-    position: absolute;
-    left: 5px;
     /* bottom: 5px; */
     color: purple;
 }
