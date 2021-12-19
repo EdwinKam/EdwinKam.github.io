@@ -10,12 +10,19 @@ import Blackrock from "../../img/blackrock.jpg";
 import Slider from "./Slider";
 import Divider from '@mui/material/Divider';
 import Typography from '@material-ui/core/Typography';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
 
-// https://www.npmjs.com/package/react-typing-effect
-// React-typing-effect
-import ReactTypingEffect from 'react-typing-effect';
+import { FaReact, FaDiscord, FaGithub, FaMapMarkedAlt, FaJava, FaDocker } from "react-icons/fa";
+import { SiElectron, SiApachesolr, SiSpringboot, SiSequelize,SiApachemaven } from "react-icons/si";
 
 //card header should be the same length as the centent
+const cardHeaderProject = [
+  "Technologies used","Job Description","Project"
+]
+
 const cardHeader = [
   "Technologies used","Job Description"
 ]
@@ -31,7 +38,13 @@ const blackrockData = [
   <ul>
     <li>Designed and implemented an internal-use webapp(ADL Visualizer) and assisted with building a VS Code plugin.</li>
     <li>Replaced the old PHP ADL visualizer with a easy-to-maintain code base and intuitive GUI using React.js</li>
-  </ul>
+  </ul>,
+  <div className="experience-projectlink">
+    <a href="#project">
+      <SiApachemaven className="experience-icon"/>
+    </a>
+    <p>Aladdin Database Visualizer</p>
+  </div>
 ];
 
 const dtscData = [
@@ -44,7 +57,13 @@ const dtscData = [
 Management Program in the DTSC official website.</li>
     <li>Created a map for the website to assist users to look up HWMP
 facilities by their specified locations by sketching on the map. </li>
-  </ul>
+  </ul>,
+  <div className="experience-projectlink">
+    <a href="#project">
+      <FaMapMarkedAlt className="experience-icon"/>
+    </a>
+    <p>CalEnviroScreen Map</p>
+  </div>
 ];
 
 const bsoeData = [
@@ -73,7 +92,7 @@ function Experience() {
           <Typography variant="h4">Blackrock</Typography>
             <p>Software Engineering Intern</p>
             <p>Summer 2021</p>
-            <Slider className="experience-card" data={blackrockData} header={cardHeader}/>
+            <Slider className="experience-card" data={blackrockData} header={cardHeaderProject}/>
           </Grid>
           <Grid item xs={6} className="experience-grid">
             <a href="https://www.blackrock.com/us/individual" target="_blank" rel="noreferrer">
@@ -92,7 +111,7 @@ function Experience() {
           <Typography variant="h4">Department of Toxic Substances Control</Typography>
             <p>Software Engineering Student Assistant</p>
             <p>Fall 2021 - Present</p>
-            <Slider className="experience-card" data={dtscData} header={cardHeader}/>
+            <Slider className="experience-card" data={dtscData} header={cardHeaderProject}/>
           </Grid>
         </Grid>
         <Divider/>

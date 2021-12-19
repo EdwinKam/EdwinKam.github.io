@@ -53,3 +53,27 @@ h1 {
     border-radius: 30px;
 }
 
+.experience-projectlink {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* .experience-projectlink:hover {
+    color: black;
+    font-size: 30px;
+} */
+
+.experience-icon {
+    font-size: 50px;
+    transition: 0.2s;
+    padding: 10px;
+    color: grey;
+}
+
+.experience-icon:hover {
+    font-size: 55px;
+    transition: 0.2s;
+    padding: 10px;
+    color: black;
+}

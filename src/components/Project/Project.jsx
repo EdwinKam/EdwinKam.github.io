@@ -36,7 +36,7 @@ function Project() {
     }
 
     return (
-        <div className="project">
+        <div id="project" className="project">
             <Typography variant="h3">Projects</Typography>
             <Grid className="experience-grid" container spacing={3}>
             <Grid item xs={12} sm={4}>
