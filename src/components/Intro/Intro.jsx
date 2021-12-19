@@ -1,7 +1,7 @@
 
 import React from 'react';
 import "./intro.css";
-import Me from "../../img/metree.jpg";
+import Me from "../../img/me.png";
 import {FaGithubSquare, FaLinkedin} from "react-icons/fa";
 import { AiFillHome, AiOutlineContacts } from "react-icons/ai";
 

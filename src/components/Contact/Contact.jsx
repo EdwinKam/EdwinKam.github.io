@@ -14,9 +14,9 @@ import IconButton from '@mui/material/IconButton';
 function Contact() {
   const [copied, setCopied] = React.useState(null);
   const [open, setOpen] = React.useState(false);
-  const github = 'https://github.com/orgs/HKICAC/dashboard';
+  const github = 'https://github.com/EdwinKam';
   const linkedin = 'https://www.linkedin.com/in/edwinkam/';
-  const email = 'haha@gmail.com';
+  const email = 'edwinkam915@gmail.com';
   function copyText(txt) {
     setCopied(txt);
     setOpen(true);

@@ -3,48 +3,103 @@ import "./experience.css";
 import Grid from '@material-ui/core/Grid';
 import Apple from "../../img/apple.png";
 import Facebook from "../../img/facebook.png";
+import BSOE from "../../img/bsoe.png";
+import DTSC from "../../img/dtsc.png";
 import Netflix from "../../img/netflix.jpg";
 import Blackrock from "../../img/blackrock.jpg";
-import DTSC from "../../img/dtsc.png";
-import BSOE from "../../img/bsoe.png";
-import Divider from '@material-ui/core/Divider';
+import Slider from "./Slider";
+import Divider from '@mui/material/Divider';
+import Typography from '@material-ui/core/Typography';
+
+// https://www.npmjs.com/package/react-typing-effect
+// React-typing-effect
+import ReactTypingEffect from 'react-typing-effect';
+
+//card header should be the same length as the centent
+const cardHeader = [
+  "Technologies used","Job Description"
+]
+const blackrockData = [
+  <ul>
+    <li>React</li>
+    <li>Java</li>
+    <li>Springboot</li>
+    <li>Solr</li>
+    <li>Maven</li>
+    <li>Electron</li>
+  </ul>,
+  <ul>
+    <li>Designed and implemented an internal-use webapp(ADL Visualizer) and assisted with building a VS Code plugin.</li>
+    <li>Replaced the old PHP ADL visualizer with a easy-to-maintain code base and intuitive GUI using React.js</li>
+  </ul>
+];
+
+const dtscData = [
+  <ul>
+    <li>React</li>
+    <li>Eris ArcGis</li>
+  </ul>,
+  <ul>
+    <li>Built new features to improve the UX for the Hazardous Waste
+Management Program in the DTSC official website.</li>
+    <li>Created a map for the website to assist users to look up HWMP
+facilities by their specified locations by sketching on the map. </li>
+  </ul>
+];
+
+const bsoeData = [
+  <ul>
+    <li>C</li>
+    <li>Unix</li>
+    <li>Data Structure and Algorithm</li>
+    <li>Git</li>
+  </ul>,
+  <ul>
+    <li>Held tutoring sessions for the C programing course. Mainly
+focused on Data Structure and Algorithm.</li>
+    <li>Trouble Shooting with students having difficulty connecting
+the UCSC Unix server.
+</li>
+  </ul>
+];
+
 function Experience() {
    return (
     <div className="experience">
-      <h1>Experience</h1>
+      <Typography variant="h3">Experience</Typography>
       <div>
         <Grid className="experience-content" container spacing={3}>
-          <Grid item xs={6}>
-            <h2>Blackrock</h2>
-            <h2>Software Engineering Intern</h2>
-            Summer 2021
+          <Grid item xs={6} className="experience-grid">
+          <Typography variant="h4">Blackrock</Typography>
+            <p>Software Engineering Intern</p>
+            <p>Summer 2021</p>
+            <Slider className="experience-card" data={blackrockData} header={cardHeader}/>
           </Grid>
           <Grid item xs={6} className="experience-grid">
             <img src={Blackrock} className="experience-img"/>
-            
-            
           </Grid>
-            </Grid>
-          <Divider/>
-          <Grid className="experience-content" container spacing={3}>
-          
-          <Grid item xs={6}>
+        </Grid>
+        <Divider/>
+        <Grid className="experience-content" container spacing={3}>
+          <Grid item xs={6} className="experience-grid">
             <img src={DTSC} className="experience-img"/>
           </Grid>
-          <Grid item xs={6}>
-          <h2>DTSC</h2>
-          <h2>Software Engineer Student Assistant</h2>
-          Fall 2021 - Present
+          <Grid item xs={6} className="experience-grid">
+          <Typography variant="h4">Department of Toxic Substances Control</Typography>
+            <p>Software Engineering Student Assistant</p>
+            <p>Fall 2021 - Present</p>
+            <Slider className="experience-card" data={dtscData} header={cardHeader}/>
           </Grid>
+        </Grid>
+        <Divider/>
+        <Grid className="experience-content" container spacing={3}>
+        <Grid item xs={6} className="experience-grid">
+          <Typography variant="h4">BSOE</Typography>
+            <p>CSE Group Tutor</p>
+            <p>Spring 2021</p>
+            <Slider className="experience-card" data={bsoeData} header={cardHeader}/>
           </Grid>
-          <Divider/>
-          <Grid className="experience-content" container spacing={3}>
-          <Grid item xs={6}>
-          <h2>UC Santa Cruz BSOE</h2>
-          <h2>CS Group Tutor</h2>
-            Spring 2021
-          </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} className="experience-grid">
             <img src={BSOE} className="experience-img"/>
           </Grid>
         </Grid>
