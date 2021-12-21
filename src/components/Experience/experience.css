@@ -51,6 +51,8 @@ h1 {
     max-height: 50vh;
     object-fit: cover;
     border-radius: 30px;
+    pointer-events: none;
+    user-select: none;
 }
 
 .experience-projectlink {

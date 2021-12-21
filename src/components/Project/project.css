@@ -39,6 +39,8 @@
     height: 30vh;
     object-fit: cover;
     transition-duration: 0.2s;
+    pointer-events: none;
+    user-select: none;
 }
 
 .project-box:hover {
