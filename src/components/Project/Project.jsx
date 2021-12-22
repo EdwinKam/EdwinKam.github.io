@@ -46,7 +46,7 @@ function Project() {
                         <Typography variant="h4">Discord Bulletin Bot</Typography>
                         <Typography variant="h4">@UCSC</Typography>
                         <div className='project-box-body'>
-                            <Typography>Created a discord bot so student can receive important message via discord DMs. Students can subscribe to their different classes and clubs</Typography>
+                            <Typography>a discord bot that allows students to receive important message via discord DMs. Students can subscribe to their different classes and clubs</Typography>
                             <List>
                             <ListItem disablePadding>
                                 <ListItemIcon className="project-icon">
@@ -93,7 +93,7 @@ function Project() {
                         <Typography variant="h4">CalEnviroScreen Map</Typography>
                         <Typography variant="h4">@DTSC</Typography>
                         <div className='project-box-body'>
-                            <Typography>Created a map with Eris ArcGIS JS APIthat involved with over 10,000
+                            <Typography>a map with Eris ArcGIS JS APIthat involved with over 10,000
 California's HWMP facilities data from DTSC web server endpoints. </Typography>
                             <List>
                             <ListItem disablePadding>
@@ -120,7 +120,7 @@ California's HWMP facilities data from DTSC web server endpoints. </Typography>
                         <Typography variant="h4">Aladdin Database Visualizer</Typography>
                         <Typography variant="h4">@Blackrock</Typography>
                         <div className='project-box-body'>
-                            <Typography>Created a discord bot so student can receive important message via discord DMs. Students can subscribe to their different classes and clubs</Typography>
+                            <Typography>an internal-use database visualizer that capable of query with Solr API</Typography>
                             <List>
                             <ListItem disablePadding>
                                 <ListItemIcon className="project-icon">
