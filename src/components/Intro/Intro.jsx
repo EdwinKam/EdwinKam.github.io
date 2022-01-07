@@ -3,7 +3,7 @@ import React from 'react';
 import "./intro.css";
 import Me from "../../img/me.png";
 import {FaGithubSquare, FaLinkedin} from "react-icons/fa";
-import { AiFillHome, AiOutlineContacts, AiOutlineFilePdf } from "react-icons/ai";
+import { AiFillHome, AiOutlineContacts, AiOutlineFilePdf, AiOutlineMail } from "react-icons/ai";
 import Resume from "../../img/Edwin_Kam_Resume.pdf"
 
 // https://www.npmjs.com/package/react-typing-effect
@@ -41,7 +41,7 @@ function Intro() {
               <FaLinkedin className="social-button"/>
               </a>
               <a className="intro-tooltip"  href="#contact">
-                <AiOutlineContacts className="social-button"/>
+                <AiOutlineMail className="social-button"/>
                 <span className="tooltiptext">Contact</span>
               </a>
               <a className="intro-tooltip"  href={Resume} target="_blank" rel="noreferrer">
