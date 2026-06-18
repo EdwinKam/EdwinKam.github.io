@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.13005d6e.chunk.css",
-    "main.js": "/static/js/main.f40b6c16.chunk.js",
-    "main.js.map": "/static/js/main.f40b6c16.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.03621544.js",
-    "runtime-main.js.map": "/static/js/runtime-main.03621544.js.map",
-    "static/js/2.3b01a911.chunk.js": "/static/js/2.3b01a911.chunk.js",
-    "static/js/2.3b01a911.chunk.js.map": "/static/js/2.3b01a911.chunk.js.map",
-    "static/js/3.bf2ec35c.chunk.js": "/static/js/3.bf2ec35c.chunk.js",
-    "static/js/3.bf2ec35c.chunk.js.map": "/static/js/3.bf2ec35c.chunk.js.map",
+    "main.css": "/static/css/main.a135587a.chunk.css",
+    "main.js": "/static/js/main.8b47b4ed.chunk.js",
+    "main.js.map": "/static/js/main.8b47b4ed.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bea4f0e3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bea4f0e3.js.map",
+    "static/js/2.bca65ae1.chunk.js": "/static/js/2.bca65ae1.chunk.js",
+    "static/js/2.bca65ae1.chunk.js.map": "/static/js/2.bca65ae1.chunk.js.map",
+    "static/js/3.70a927f2.chunk.js": "/static/js/3.70a927f2.chunk.js",
+    "static/js/3.70a927f2.chunk.js.map": "/static/js/3.70a927f2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.13005d6e.chunk.css.map": "/static/css/main.13005d6e.chunk.css.map",
-    "static/js/2.3b01a911.chunk.js.LICENSE.txt": "/static/js/2.3b01a911.chunk.js.LICENSE.txt",
+    "static/css/main.a135587a.chunk.css.map": "/static/css/main.a135587a.chunk.css.map",
+    "static/js/2.bca65ae1.chunk.js.LICENSE.txt": "/static/js/2.bca65ae1.chunk.js.LICENSE.txt",
     "static/media/Edwin_Kam_Resume.9b0dc772.pdf": "/static/media/Edwin_Kam_Resume.9b0dc772.pdf",
     "static/media/apple.cc7a85b0.png": "/static/media/apple.cc7a85b0.png",
     "static/media/arcgismap.44097bc5.png": "/static/media/arcgismap.44097bc5.png",
@@ -19,15 +19,14 @@
     "static/media/bsoe.abacf719.png": "/static/media/bsoe.abacf719.png",
     "static/media/discordbot.1176a89e.png": "/static/media/discordbot.1176a89e.png",
     "static/media/dtsc.5ad2f3a0.png": "/static/media/dtsc.5ad2f3a0.png",
-    "static/media/electron.5c96c05a.png": "/static/media/electron.5c96c05a.png",
     "static/media/icac.c1364925.png": "/static/media/icac.c1364925.png",
     "static/media/me.3ace6af7.png": "/static/media/me.3ace6af7.png",
     "static/media/netflix.cca6b5ba.jpg": "/static/media/netflix.cca6b5ba.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.03621544.js",
-    "static/js/2.3b01a911.chunk.js",
-    "static/css/main.13005d6e.chunk.css",
-    "static/js/main.f40b6c16.chunk.js"
+    "static/js/runtime-main.bea4f0e3.js",
+    "static/js/2.bca65ae1.chunk.js",
+    "static/css/main.a135587a.chunk.css",
+    "static/js/main.8b47b4ed.chunk.js"
   ]
 }
