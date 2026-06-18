@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.decfd171.chunk.css",
+    "main.css": "/static/css/main.3d3831c5.chunk.css",
     "main.js": "/static/js/main.172e0b71.chunk.js",
     "main.js.map": "/static/js/main.172e0b71.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.03621544.js",
@@ -10,7 +10,7 @@
     "static/js/3.bf2ec35c.chunk.js": "/static/js/3.bf2ec35c.chunk.js",
     "static/js/3.bf2ec35c.chunk.js.map": "/static/js/3.bf2ec35c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.decfd171.chunk.css.map": "/static/css/main.decfd171.chunk.css.map",
+    "static/css/main.3d3831c5.chunk.css.map": "/static/css/main.3d3831c5.chunk.css.map",
     "static/js/2.e8aa9b70.chunk.js.LICENSE.txt": "/static/js/2.e8aa9b70.chunk.js.LICENSE.txt",
     "static/media/Edwin_Kam_Resume.9b0dc772.pdf": "/static/media/Edwin_Kam_Resume.9b0dc772.pdf",
     "static/media/apple.cc7a85b0.png": "/static/media/apple.cc7a85b0.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.03621544.js",
     "static/js/2.e8aa9b70.chunk.js",
-    "static/css/main.decfd171.chunk.css",
+    "static/css/main.3d3831c5.chunk.css",
     "static/js/main.172e0b71.chunk.js"
   ]
 }
